@@ -1,0 +1,36 @@
+.App{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.UserCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    /* padding: 5px;
+    border: 2px solid purple; */
+}
+
+.AppFollowers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.FollowerCard{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    max-width: 250px;
+    max-height: 250px;
+}
